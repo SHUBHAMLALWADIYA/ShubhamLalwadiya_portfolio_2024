@@ -1,0 +1,106 @@
+.contactext{
+    margin: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+#mainContact{
+    width: 92%;
+    height: auto;
+   
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+#mainContact>div{
+    margin: 20px;
+    padding: 30px;
+   
+    border-radius: 10px;
+}
+
+label{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.yourName{
+    border:1px solid white;
+    background-color: transparent;
+    width:90%;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+.sendMsg{
+    margin-top: 30px;
+    padding: 12px;
+    background-color: rgb(52, 82, 234);
+    font-weight: 500;
+    border-radius: 10px;
+    color: white;
+}
+.sendMsg:hover{
+    background-color: rgb(207, 218, 215);
+    color: black;
+}
+.inpMessage{
+    height: 60px;
+}
+.leftContainers{
+    border: 1px solid rgb(255, 255, 255);
+}
+.rightContact{
+    color: white;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+}
+.allButtons>div{
+   
+    width: fit-content;
+    margin: auto;
+}
+.lastText{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#shubham{
+    color: rgb(255, 135, 66);
+}
+
+
+
+
+/* medium screen */
+@media all and (min-width:768px) and (max-width:1023px) {
+    #mainContact{
+
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+  }
+  /* small screen */
+  @media all and (min-width:517px) and (max-width:767px) {
+    #mainContact{
+
+        grid-template-columns: repeat(1,1fr);
+    }
+  }
+  /* extra small */
+  @media all and  (max-width:516px) {
+    #mainContact{
+
+        grid-template-columns: repeat(1,1fr);
+    }
+    .lastText{
+        font-size: 13px;
+       
+    }
+    }
+  

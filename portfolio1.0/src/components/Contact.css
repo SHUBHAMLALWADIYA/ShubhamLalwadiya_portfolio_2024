@@ -1,0 +1,126 @@
+.contactme{
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 30px;
+}
+
+/* AboutSection.css
+.about-section{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: auto;
+    margin-top: 50px;
+}
+
+.email-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  .email-form label {
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .email-form input,
+  .email-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box; 
+    background-color: #333; 
+    border: 1px solid #555; 
+    color: white;
+  }
+  
+  .email-form button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .email-form button:hover {
+    background-color: #45a049;
+    color: #ddd;
+  }
+  
+
+
+  
+.icons:hover{
+    border-radius: 30px;
+    box-shadow: rgba(27, 200, 231, 0.3) 0px 5px 10px, rgb(255, 255, 255) 0px 1px 10px;
+  }
+  .contactS{
+    color: #fafcfd;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 100px;
+  }
+  .allSocial{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 5px;
+    padding: 40px;
+   
+  }
+  .allSocial>a>img{
+    width: 50px;
+  }
+  .allSocial>a{
+    width: fit-content;
+
+    color: white;
+  }
+  .text{
+    margin-left: -150px;
+  } 
+  .last{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+  }
+  .last>span{
+    color: rgb(245, 162, 7);
+  }
+  @media (max-width: 480px) {
+   
+        .about-section{
+            grid-template-columns: repeat(1,1fr);
+            row-gap: 30px;
+        }
+        .allSocial{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            
+          }
+          .allSocial>a{
+            
+            margin: auto;
+          }
+          
+         .text>p{
+            font-size: 10px;
+         }
+        .allSocial>a>img{
+            width: 25px;
+            margin-right: 1px;
+          }
+          
+  }
+
+  @media (max-width: 768px) {
+    .email-form {
+      width: 100%;
+    }
+   
+    
+  }
+   */

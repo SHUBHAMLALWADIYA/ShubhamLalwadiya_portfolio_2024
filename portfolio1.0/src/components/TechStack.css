@@ -1,0 +1,73 @@
+/* TechStack.css */
+
+.techstack {
+    display: grid;
+    width: 70%;
+    grid-template-columns: repeat(4,  1fr);
+    gap: 10px;
+    margin-top: 30px;
+    margin: auto;
+  }
+ .techStack1{
+ text-align: center;
+    margin-bottom: 60px;
+    color: #CBD5E1;
+ }
+ .toolstack{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: #CBD5E1;
+ }
+  
+  .techstackicon {
+   
+    text-align: center;
+    border-radius: 20px;
+  }
+  /* .tech-stack-icon:hover{
+    box-shadow: rgb(50, 134, 225) 10px 20px 30px -10px;
+  } */
+  
+  .techstackicon img {
+    margin: auto;
+    width: 35%; /* Adjust the size of the tech stack icons as needed */
+    margin-bottom: 10px;
+  }
+  
+  .techstackicon>img:hover{
+   
+    box-shadow: 0px 9px 30px rgb(61, 207, 255);
+  
+  }
+  .iconName{
+    font-size: 25px;
+    color: #CBD5E1;
+    text-decoration: underline;
+  }
+  
+  /* Media Queries for responsiveness */
+  
+  @media all and (max-width: 767px) {
+    .techstack {
+      grid-template-columns: repeat(3,1fr);
+      .iconName{
+        font-size: 15px;
+        color: #CBD5E1;
+      }
+    }
+  
+}
+  
+  @media all and (max-width: 516px) {
+    .techstack {
+      grid-template-columns: repeat(2,1fr);
+    
+    }
+    .iconName{
+      font-size: 11px;
+      color: #CBD5E1;
+    }
+   
+  }
+  

@@ -1,0 +1,120 @@
+.projectContainer{
+  width: 70%;
+  margin: auto;
+  padding: 5%;
+  
+}
+.projectContainer>div{
+
+  margin-bottom: 20px;
+}
+
+
+.ptitle{
+  font-size: 30px;
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+  background-color: rgb(162, 85, 22);
+}
+.ptitle:hover{
+  color: chocolate;
+}
+.projectimage:hover{
+  box-shadow: 0px 9px 30px 29px rgba(5,133,255,0.3);
+
+}
+.projectdetails{
+ border: 1px solid rgb(255, 255, 255);
+ padding: 5px;
+  margin: 5px;
+}
+.techStack{
+  display: flex;
+  color: rgb(29, 186, 134);
+  font-size: 20px;
+  padding: 5px 35px;
+}
+.techSpan{
+  color: orange;
+  
+}
+.buttonscontainer{
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.gitbutton, .previewbutton{
+  
+  padding: 3px 15px;
+  border-radius: 10px;
+}
+.gitbutton{
+  background-color: rgb(14, 169, 37);
+}
+.previewbutton{
+  background-color:  rgb(8, 154, 245);
+}
+.gitbutton:hover, .previewbutton:hover{
+  background-color: rgb(226, 122, 10);
+  color: white;
+  
+}
+
+.projectName{
+  color: white;
+ text-align: center;
+ 
+}
+.descriptionp{
+  text-align: justify;
+}
+.projectCard{
+  margin-top:70px;
+}
+.desc{
+  color: aliceblue;
+  display: flex;
+  padding: 30px;
+}
+.descText{
+  font-size: 20px;
+  color: rgb(236, 149, 9);
+}
+/* medium screen */
+@media all and (min-width:768px) and (max-width:1023px) {
+  .ptitle{
+    font-size:25px ;
+  }
+  .techStack{
+
+    font-size: 16px;
+  }
+  
+  
+}
+/* small screen */
+@media all and (min-width:517px) and (max-width:767px) {
+.ptitle{
+  font-size:25px ;
+}
+.techStack{
+
+  font-size: 12px;
+}
+
+}
+/* extra small */
+@media all and  (max-width:516px) {
+
+  .ptitle{
+    font-size:20px ;
+  }
+  .techStack{
+    font-size: 12px;
+    margin: auto;
+  }
+  }
+
+   

@@ -1,0 +1,19 @@
+.drawerPtag{
+    color:brown;
+    font-weight: 800;
+}
+
+.container {
+    display: flex;
+  }
+  
+  .vertical-line {
+    border-left: 2px solid black; /* Adjust the properties as needed */
+    height: 100%;
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }

@@ -1,0 +1,109 @@
+/* #navContainer{
+    position: relative;
+} */
+#navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    background-color: #0f172a;
+position: fixed;
+z-index: 1;
+
+}
+#tabs{
+    width: 40%;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+#name{
+   letter-spacing: 2px;
+    margin: 15px;
+  color: white;
+    font-size: 30px;
+}
+.navEffect{
+    color:white
+}
+.navEffect:hover{
+ cursor: pointer;
+    color: rgb(239, 193, 11);
+    font-size: 23px;
+    
+   
+}
+#s{
+    font-size: 50px;
+    color: rgb(254, 98, 8);
+    font-weight: 600;
+}
+
+.navResume{
+    text-decoration: none;
+    color: #CBD5E1;
+}
+
+
+
+
+
+ /* medium screen */
+ @media all and (min-width:1023px) {
+    .drop{
+       display: none;
+    }
+      .navEffect{
+          font-size: 18px;
+          }
+          #tabs{
+              margin-top: 50px;
+          }
+          
+   }
+
+ /* medium screen */
+ @media all and (min-width:768px) and (max-width:1023px) {
+  .drop{
+     display: none;
+  }
+    .navEffect{
+        font-size: 18px;
+        }
+        #tabs{
+            margin-top: 50px;
+        }
+        
+ }
+ /* small screen */
+ @media all and (min-width:517px) and (max-width:767px) {
+    .drop{
+       margin-top: -10px;
+     }
+   
+        .navEffect{
+        display: none;
+        }
+ }
+/* extra small */
+@media all and  (max-width:516px) {
+ 
+    .navEffect{
+        display: none;
+        }
+        #name{
+         
+             
+           color: white;
+             font-size: 15px;
+             margin-top: 20px;
+         }
+         #s{
+            
+            font-size: 35px;
+            color: rgb(254, 98, 8);
+            font-weight: 500;
+        }
+        
+ }
+     
