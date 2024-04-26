@@ -8,20 +8,17 @@ import ContactSection from './components/ContactSection'
 import "../src/components/App.css"
 import Boxs from "../src/components/Box"
 
-
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    
     <Navbar/>
     <About/>
     <TechStack/>
     <Github/>
     <Portfolio/>
-    
-   <Boxs/>
+    <Boxs/>
     </>
   )
 }
